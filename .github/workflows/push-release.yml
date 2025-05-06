@@ -22,7 +22,7 @@ jobs:
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683  # v4.2.2
 
-      - uses: actions/create-github-app-token@f1a0b4c2d3e5f8a7b6c9d3e4f5e6f7a8b9c0d1e2  # v1.0.0
+      - uses: /create-github-app-token@0d564482f06ca65fa9e77e2510873638c82206f2  # v1.11.5
         id: app_token
         with:
           app_id: ${{ secrets.APP_ID }}
