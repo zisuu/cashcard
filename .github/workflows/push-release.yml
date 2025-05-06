@@ -52,4 +52,4 @@ jobs:
             @semantic-release/github
             conventional-changelog-conventionalcommits
         env:
-          GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
+          GITHUB_TOKEN: ${{ steps.app_token.outputs.token }}
