@@ -25,8 +25,8 @@ jobs:
       - uses: actions/create-github-app-token@0d564482f06ca65fa9e77e2510873638c82206f2  # v1.11.5
         id: app_token
         with:
-          app_id: ${{ secrets.APP_ID }}
-          private_key: ${{ secrets.APP_PRIVATE_KEY }}
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
 
       - uses: actions/setup-java@c5195efecf7bdfc987ee8bae7a71cb8b11521c00  # v4.7.1
         with:
